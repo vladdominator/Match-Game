@@ -13,5 +13,5 @@ export function clearInput(): void {
     item.parentElement?.children[1].classList.remove('user__true-active');
     item.parentElement?.children[2].classList.remove('user__false-active');
   });
-  (fileImage as HTMLImageElement).src = '../../public/images/user.png';
+  (fileImage as HTMLImageElement).src = './images/user.png';
 }
