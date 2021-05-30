@@ -1,0 +1,20 @@
+.game__container {
+  min-width: 1000px;
+  min-height: 802px;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  margin: 33px auto 0px auto;
+  padding: 27px 0 118px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container__card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 744px;
+  margin-top: 40px;
+  justify-content: space-between;
+  align-items: center;
+}

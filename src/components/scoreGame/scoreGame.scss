@@ -1,0 +1,78 @@
+.score__game {
+  width: 1000px;
+  height: 802px;
+  margin: 47px auto 0px auto;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  padding: 48px 0 0 56px;
+}
+.score__container {
+  width: 846px;
+  border-bottom: 1px solid#ccc;
+  height: 45px;
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.15px;
+  color: #333333;
+  padding-bottom: 6px;
+}
+.user__information {
+  display: flex;
+  align-items: center;
+}
+.user__photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  &_img {
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+}
+.user__info {
+  margin-left: 16px;
+}
+.user__name {
+  display: flex;
+  &_first, &_last {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    color: #333333;
+  }
+  &_last {
+    margin-left: 5px;
+  }
+}
+.user__login_mail {
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 6px;
+  letter-spacing: 0.4px;
+  color: #333333;
+}
+.user__score {
+  p {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.15px;
+    color: rgba(0, 0, 0, 0.87);
+  }
+  &_inf {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.15px;
+    color: #2196F3;
+  }
+}
