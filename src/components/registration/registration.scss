@@ -1,0 +1,25 @@
+.container__registration {
+  cursor: pointer;
+  width: 207px;
+  height: 36px;
+  background: #fff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background .3s ease-in-out 0s;
+  p {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: #2196F3;
+    transition: color .3s ease-in-out 0s;
+  }
+}
+.container__registration:hover, .container__registration:active {
+  background: #1E88E5;
+}
+.container__registration:hover p, .container__registration:active p{
+  color: #fff;
+}

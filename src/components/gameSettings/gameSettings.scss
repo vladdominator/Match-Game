@@ -1,0 +1,78 @@
+.game__settings {
+  max-width: 1000px;
+  min-height: 252px;
+  margin: 47px auto 0px auto;
+  padding: 1px 0 47px 30px;
+  background: #FFFFFF;
+  box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.24), 0px 9px 18px rgba(0, 0, 0, 0.18)
+}
+.game__option {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+  margin-left: 16px;
+}
+.game__text {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 5px;
+  margin-left: 16px;
+}
+hr {
+  height: 1px;
+  background:#E5E5E5;
+  margin-top: 20px;
+  width: 256px;
+}
+.select {
+  cursor: pointer;
+  width: 256px;
+  position: relative;
+  &:nth-child(odd) {
+    margin-top: 37px;
+  }
+}
+.select__icon {
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+	width: 0;
+	height: 0;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-top: 10px solid rgba(0, 0, 0, 0.54);
+}
+.option__item {
+  height: 40px;
+  width: 256px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+  transition: background .3s ease-in-out 0s;
+  border-radius: 10px;
+  p{
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.15px;
+    color: rgba(0, 0, 0, 0.87);
+  }
+}
+.option__item:hover, .option__item:active {
+  background: #e5e5e5;
+}
+.option__item-active {
+  background: #e5e5e5;
+}
+.select__settings_option {
+  display: none;
+}
+.select__settings_option-active {
+  display: block;
+}
+.select__icon-active {
+  transform: rotate(180deg);
+}

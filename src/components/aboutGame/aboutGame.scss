@@ -1,0 +1,61 @@
+.about__game {
+  max-width: 1000px;
+  height: 802px;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  margin: 33px auto 0px auto;
+  padding: 28px 0px 0px 36px;
+}
+.how__play {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.game__information {
+  max-width: 780px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  &_register, &_settings, &_start{
+    width: 360px;
+    background-color: #fff;
+    padding: 16px 0 0 16px;
+    display: flex;
+  }
+  &_register {
+    height: 230px;
+  }
+  &_settings {
+    height: 132px;
+  }
+  &_start {
+    height: 240px;
+  }
+}
+.game__circle{
+  width: 40px;
+  background-color: #2196F3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  border-radius: 50%;
+  p {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+  }
+}
+.game__live {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  margin-left: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 20px;
+  max-width: 272px;
+}
+

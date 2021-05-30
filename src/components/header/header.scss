@@ -1,0 +1,17 @@
+header {
+  background: #2196F3;
+  min-height: 64px;
+  padding-right: 20px;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__nav {
+    display: flex;
+    height: 64px;
+    align-items: center;
+  }
+}

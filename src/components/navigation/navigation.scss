@@ -1,0 +1,39 @@
+.nav__header {
+  margin-left: 128px;
+  display: flex;
+}
+
+.nav__elements {
+  width: 96px;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background .3s ease-in-out 0s;
+}
+.nav__elements:hover, .nav__elements:active {
+  background: #1E88E5;
+}
+#active {
+  background: #1E88E5;
+}
+.nav__text {
+  margin-top: 9px;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  color: #FFFFFF;
+}
+#bag {
+  margin-top: 6px;
+}
+.circle {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 50%;
+}
