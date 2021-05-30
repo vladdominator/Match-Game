@@ -1,7 +1,5 @@
 import { BaseComponent } from '../../shared/api/base-component';
 import './registrationForm.scss';
-import '../../../public/images/user.png';
-import '../../../public/images/cancel.png';
 
 export class RegistrationForm extends BaseComponent {
   constructor() {
@@ -94,8 +92,8 @@ export class RegistrationForm extends BaseComponent {
             <div class="user__photo">
               <input name="file" type="file" name="file" id="input__file" class="input__btn" multiple>
               <label for="input__file" class="input__file-button">
-              <div class="hover__user"><img class="input-User" src="../../../public/images/user.png"/></div>
-              <img class="user__cancel" src="../../../public/images/cancel.png"/>
+              <div class="hover__user"><img class="input-User" src="./images/user.png"/></div>
+              <img class="user__cancel" src="./images/cancel.png"/>
               </label>
             </div>
           </div>

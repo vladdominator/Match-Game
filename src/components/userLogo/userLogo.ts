@@ -11,7 +11,7 @@ export class UserLogo extends BaseComponent {
       </p>
     </a>
     <div class="user__icon">
-      <img class="icon__db" src="../../public/images/user.png">
+      <img class="icon__db" src="./images/user.png">
     </div>
     `;
   }

@@ -35,7 +35,7 @@ export function startGame(): void {
     } else if (difficultyMax === 8) {
       containerCard.style.width = '1470px'
     }
-    let images = cat.images.map((name) => `../../../public/images/${cat.category}/${name}.png`)
+    let images = cat.images.map((name) => `${cat.category}/${name}.png`)
     images = images.slice(0, difficultyMax * difficultyMax / 2);
     newGame(images)
   } else {

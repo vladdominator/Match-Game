@@ -10,7 +10,7 @@ export class GameCards extends BaseComponent {
     this.element.innerHTML =  `
       <div class="card">
         <div class="card__front">
-          <img src="../../../pulic/images/${image}"/>
+          <img src="./images/${image}"/>
         </div>
         <div class="card__back"></div>
       </div>

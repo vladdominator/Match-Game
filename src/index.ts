@@ -1,6 +1,11 @@
 import './zeroing.scss';
 import './style.scss';
 import './fonts.scss';
+import '../public/images/register.png';
+import '../public/images/settings.png';
+import '../public/images/game.png';
+import '../public/images/user.png';
+import '../public/images/cancel.png';
 import { App } from './app';
 import { checkInput } from './components/registrationForm/checkInput';
 import { addRouting } from './components/routing';
