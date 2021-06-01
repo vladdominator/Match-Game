@@ -37,6 +37,8 @@ async function cardHandler(card: GameCards): Promise<void> {
     if (countGreen === cardElements / 2) {
       countScoreClose(countComparison, countComparisonFalse);
       countGreen = 0;
+      countComparison = 0;
+      countComparisonFalse = 0;
     }
   }
   countScore(countComparison, countComparisonFalse);
